@@ -22,7 +22,7 @@ var trade = function(remote, wallet, type, price, amount){
         });
     default:
         console.log('unknown operation');
-        return remote;
+        throw new Error('unknown operation:'+type);
     }
 }
 
