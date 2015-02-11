@@ -1,0 +1,37 @@
+{
+  "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
+  "name": "ripple-cli",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "bluebird":"",
+    "ripple-usecase":"git://github.com/you21979/node-ripple-usecase.git",
+    "ripple-lib-promise":"git://github.com/you21979/node-ripple-lib-promise.git"
+  },
+  "readmeFilename": "README.md",
+  "description": "ripple commindline tools",
+  "main": "index.js",
+  "devDependencies": {
+    "istanbul":"",
+    "coveralls":"",
+    "power-assert":"",
+    "mocha":""
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/you21979/node-ripple-cli.git"
+  },
+  "keywords": [
+    "commandline",
+    "xrp",
+    "ripple"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-ripple-cli/issues"
+  }
+}

@@ -1,0 +1,12 @@
+{
+ "WALLET_NAME_1" : {
+  "pair" : "XRP_JPY.r94s8px6kSw1uZ1MV98dhSRTvc6VMPoPcN",
+  "address" : "",
+  "secret" : ""
+ },
+ "WALLET_NAME_2" : {
+  "pair" : "XRP_JPY.rMAz5ZnK73nyNUL4foAvaxdreczCkG3vA6",
+  "address" : "",
+  "secret" : ""
+ }
+}
