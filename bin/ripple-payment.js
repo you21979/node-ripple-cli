@@ -19,7 +19,7 @@ var main = function(){
 
     var opt = process.argv.splice(2)
     if(opt.length !== 4){
-        console.log("%s wallet type price amount", process.argv[1])
+        console.log("%s send_wallet payment_address currency amount", process.argv[1])
         console.log(" send_wallet = wallet name");
         console.log(" payment_address = address");
         console.log(" currency = XRP or BTC.ISSUER or etc");
